@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "modernIE/w7-ie11"
   config.vm.hostname = "Viewinfinity"
   config.vm.provider :virtualbox do |vb|
-    vb.name = "Viewinfinity "
+    vb.name = "Viewinfinity"
   end  
 
   # Disable automatic box update checking. 
