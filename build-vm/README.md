@@ -34,7 +34,7 @@ How to create
 2. install Vagrant
 3. download VirtualBox fomr [this website](https://www.virtualbox.org/wiki/Downloads)
 4. install VirtualBox
-5. download all files from [build-vm folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-UMLsec/tree/master/build-vm), to where you want to install VM.
+5. download all files from [build-vm folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm), to where you want to install VM.
 6. (If in windows system)Open a command window
 7. Enter to the folder where the downloaded files are (VM directory).
 8. execute command "__vagrant up__"
@@ -65,3 +65,10 @@ Reference and sources
 12. [Powershell install Java silently](http://stackoverflow.com/questions/29799158/powershell-install-java-silently)
 13. [VagrantDocs](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 14. [Windows : Disable UAC (User Account Control) with CMD Script & PowerShell](http://juventusitprofessional.blogspot.com/2014/05/windows-disable-uac-user-account.html)
+
+Author
+-----
+The build-vm folder, README.md, script files in this repo were created by
+
+Name: [Yi-Chun Chen](https://github.com/RimiChen)
+Team: Onslow.
