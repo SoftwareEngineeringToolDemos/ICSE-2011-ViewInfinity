@@ -7,16 +7,16 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box.
   config.vm.box = "modernIE/w7-ie11"
-  config.vm.hostname = "UMLsec"
+  config.vm.hostname = "Viewinfinity"
   config.vm.provider :virtualbox do |vb|
-    vb.name = "UMLsec"
+    vb.name = "Viewinfinity "
   end  
 
   # Disable automatic box update checking. 
   config.vm.box_check_update = false
 
   # Share an additional folder to the guest VM.
-  config.vm.synced_folder "../", "/vagrant_UMLsec"
+  config.vm.synced_folder "../", "/vagrant_Viewinfinity"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. 
