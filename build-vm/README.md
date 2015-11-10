@@ -4,7 +4,7 @@ Environment
 ------
 __VM:__ Windows 7 with IE 11 (same with previous hand made VMs)
 
-__Script:__ for Windows only (vagrant + powershell)
+__Script:__ Windows only (vagrant + powershell)
 
 __External sources:__ [modernIE/w7-ie11](https://atlas.hashicorp.com/modernIE/boxes/w7-ie11),[Vagrant Provision Reboot Plugin](https://github.com/exratione/vagrant-provision-reboot) 
 
@@ -13,31 +13,27 @@ __prerequisite software:__ jre-7u79-windows-i586
 
 Folder content
 -----
-This build-vm folder contains following things:
-- __README.md file__
-- __Vagrantfile__
-  This is the script (& configuration) file of the VM
-- __vagrant-provision-reboot-plugin.rb__
-  This is a reboot plugin for vagrant, which let VMs to reboot during executing provisions.
-- __installScript folder__
-  This folder contains scripts of settings, installations.
-- __software folder__
-  The perquisite JRE is in the folder.
+This build-vm folder contains following things:<br>
+:white_check_mark: [README.md file](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/blob/master/build-vm/README.md) <br>
+:white_check_mark: [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/blob/master/build-vm/Vagrantfile) The script (& configuration) file of the VM<br>
+:white_check_mark: [vagrant-provision-reboot-plugin.rb](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/blob/master/build-vm/vagrant-provision-reboot-plugin.rb) This is a reboot plugin for vagrant, which lets VM to reboot during executing provisions.<br>
+:white_check_mark: [installScript folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm/installScript) This folder contains scripts of settings, installations.<br>
+:white_check_mark: [software folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm/software) The perquisite JRE is in the folder.<br>
 
 
 
-How to create
+How to Use
 -----
-** this version of script only work for windows system.
+** This version of script only work for windows system.
 
-1. download Vagrant from [this website](https://www.vagrantup.com/)
-2. install Vagrant
-3. download VirtualBox fomr [this website](https://www.virtualbox.org/wiki/Downloads)
-4. install VirtualBox
-5. download all files from [build-vm folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm), to where you want to install VM.
-6. (If in windows system)Open a command window
-7. Enter to the folder where the downloaded files are (VM directory).
-8. execute command "__vagrant up__"
+1. Download Vagrant from [this website](https://www.vagrantup.com/)
+2. Install Vagrant
+3. Download VirtualBox from [this website](https://www.virtualbox.org/wiki/Downloads)
+4. Install VirtualBox
+5. Download all files from [build-vm folder](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm), to where you want to install VM.
+6. (In windows system)Open a command window
+7. Change Directory to where you downloded the build-vm (VM directory).
+8. Execute command "__vagrant up__"
 
 Note:
 ------
@@ -68,7 +64,4 @@ Reference and sources
 
 Author
 -----
-The build-vm folder, README.md, script files in this repo were created by
-
-Name: [Yi-Chun Chen](https://github.com/RimiChen)
-Team: Onslow.
+The build-vm folder, README.md, script files in this repo were created by [Yi-Chun Chen](https://github.com/RimiChen) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).
