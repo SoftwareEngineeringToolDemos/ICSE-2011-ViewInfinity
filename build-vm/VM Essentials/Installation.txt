@@ -1,6 +1,7 @@
 View Infinity
 
-The ViewInfinity Binary distribution can be downloaded From : 							https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View%20Infinity%20Binary
+The ViewInfinity Binary distribution can be downloaded From : 							
+	https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View%20Infinity%20Binary
 
 The ViewInfinity Source Code can be downloaded From :
 	https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View%20Infinity%20SRC
