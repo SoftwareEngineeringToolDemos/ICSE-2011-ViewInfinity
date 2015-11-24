@@ -1,0 +1,14 @@
+View Infinity
+
+The ViewInfinity Binary distribution can be downloaded From : 							
+	https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View%20Infinity%20Binary
+
+The ViewInfinity Source Code can be downloaded From :
+	https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View%20Infinity%20SRC
+
+Installation Steps:
+	1. Download the View infinity Binary Distribution
+	2. To start ViewInfinity, click on the ViewInfinity.exe inside the Binary Folder
+		The tool starts as a stand alone application
+ 
+** The tool only works on Windows OS
