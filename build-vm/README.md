@@ -61,6 +61,7 @@ Reference and sources
 12. [Powershell install Java silently](http://stackoverflow.com/questions/29799158/powershell-install-java-silently)
 13. [VagrantDocs](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 14. [Windows : Disable UAC (User Account Control) with CMD Script & PowerShell](http://juventusitprofessional.blogspot.com/2014/05/windows-disable-uac-user-account.html)
+15. [Powershell function to pin and unpin from Windows Taskbar](https://rcmtech.wordpress.com/2014/03/12/powershell-function-to-pin-and-unpin-from-windows-taskbar/)
 
 Author
 -----
