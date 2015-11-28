@@ -45,6 +45,7 @@ Note:
 - Please be patient, wait until message "All set"
 - The JRE is installed in c:\Program Files\Java\jre7
 - The tool viewInfinity is in Desktop\View_Infinity_Binary
+- When all setting finish, ViewInfinity will automatically start.
 
 Reference and sources
 -----
