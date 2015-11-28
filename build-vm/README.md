@@ -41,9 +41,10 @@ Note:
 - If the VM has not been executed in your computer before, it might take longer time to download and load th VM.
 - The VM will reboot several time automatically to config environment and settings.
 
-  host name change --> reboot --> Disable UAC --> reboot by plugin -->start installations.
-- Please be patient, wait until message "Setting successful, JRE has been installed."
+  host name change --> reboot --> Disable UAC --> reboot by plugin -->start installations --> copy files to startup --> reboot.
+- Please be patient, wait until message "All set"
 - The JRE is installed in c:\Program Files\Java\jre7
+- The tool viewInfinity is in Desktop\View_Infinity_Binary
 
 Reference and sources
 -----
