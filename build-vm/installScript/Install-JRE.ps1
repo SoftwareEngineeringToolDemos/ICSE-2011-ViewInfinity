@@ -1,43 +1,39 @@
 $JavaFilePath = 'c:\vagrant\software'
 $JavaInstallerFile = 'jre-7u79-windows-i586.exe'
 
-#function Enable-Java
-#{
 
-#    $psi = New-Object System.Diagnostics.ProcessStartInfo
-#    $psi.WorkingDirectory = "$JavaFilePath"
-#    $psi.FileName = "$JavaInstallerFile"
-#    $psi.Arguments = "/s /q /norestart /log `'$JavaFilePath\JavaInstall.log`'"
-#    $psi.WindowStyle = [System.Diagnostics.ProcessWindowStyle]::Minimized;
+Write-Host "Get desktop."
+#Desktop Location
+$desktop = [Environment]::GetFolderPath("Desktop")
 
-#    $s = [System.Diagnostics.Process]::Start($psi);
-#    $s.WaitForExit();
-#	Write-Host "Finish installation"
-#}
+# Copy Files to desktop
+#Copy-Item -path c:\vagrant_Viewinfinity\* -Destination $desktop -Recurse
+Copy-Item -path c:\vagrant_Viewinfinity\build-vm\VM_Essentials\* -Destination $desktop -Recurse
+Copy-Item -path c:\vagrant_Viewinfinity\View_Infinity_Binary -Destination $desktop -Recurse
+Copy-Item -path c:\vagrant_Viewinfinity\View_Infinity_SRC -Destination $desktop -Recurse
+# copy bat file to startup folder
+Copy-Item -path c:\vagrant_Viewinfinity\build-vm\installScript\test.bat -Destination "C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Recurse
 
-#function Enable-Java2
-#{
+$LicenseFolder = "$desktop\License\"
 
-#	$installDir = 'C:\Program Files\Java\'
-#	$arguments = @(
-#		'/s',
-#		"/v/qn`" INSTALLDIR=\`"$installDir\`" REBOOT=Supress IEXPLORER=0 MOZILLA=0 /L \`"install.log\`"`""
-#	)
+Move-Item -path $desktop\eula.lnk -Destination $desktop\License\
 
-#	$proc = Start-Process "$JavaFilePath\$JavaInstallerFile" -ArgumentList $arguments -Wait -PassThru
-#	if($proc.ExitCode -ne 0) {
-#		Throw "ERROR"
-#	}
-#	Write-Host "Finish installation"
-#}
 
-#Enable-Java2
-
-#Invoke-Item “C:\vagrant\software\jre-7u79-windows-i586.exe /s”
-
+# install java environment
 set-alias EXECUTE "C:\vagrant\software\jre-7u79-windows-i586.exe"
 
 EXECUTE /s
 
 Write-Host "Finish installation"
 Write-Host "Setting successful, JRE has been installed."
+Write-Host "Start prepare tools"
+
+
+# create shortcut for the tool
+$WshShell = New-Object -ComObject WScript.Shell
+$Shortcut = $WshShell.CreateShortcut("$desktop\ViewInfinity.lnk")
+$Shortcut.TargetPath = "$desktop\View_Infinity_Binary\View_Infinity.exe"
+$Shortcut.Save()
+
+
+Write-Host "All set"

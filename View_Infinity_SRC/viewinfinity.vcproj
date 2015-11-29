@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="View Infinity"
+	ProjectGUID="{F5F571C9-6ED8-4250-944F-FF009C49DD51}"
+	RootNamespace="smvfeaturediagram"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="1"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtTest&quot;;&quot;$(QTDIR)\include\Qt3Support&quot;;&quot;$(QTDIR)\include\QtXml&quot;;&quot;$(QTDIR)\include\QtSVG&quot;;&quot;$(QTDIR)\include\QtOpenGL&quot;;&quot;$(QTDIR)\include\QtUiTools&quot;;&quot;$(QTDIR)\include\QtNetwork&quot;;&quot;$(QTDIR)\include\QtGui&quot;;&quot;$(QTDIR)\include\QtCore&quot;;&quot;$(QTDIR)\include\Qt&quot;;&quot;$(QTDIR)\include&quot;;./"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="4"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="qtmaind.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib QtOpenGLd4.lib QtSqld4.lib QtScriptd4.lib QtSvgd4.lib QtXmld4.lib QtUiToolsd.lib Qt3Supportd4.lib QtTestd4.lib OGDFd.lib"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories=".\lib;&quot;$(QTDIR)\lib&quot;"
+				GenerateDebugInformation="true"
+				SubSystem="2"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="1"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtTest&quot;;&quot;$(QTDIR)\include\Qt3Support&quot;;&quot;$(QTDIR)\include\QtXml&quot;;&quot;$(QTDIR)\include\QtSVG&quot;;&quot;$(QTDIR)\include\QtOpenGL&quot;;&quot;$(QTDIR)\include\QtUiTools&quot;;&quot;$(QTDIR)\include\QtNetwork&quot;;&quot;$(QTDIR)\include\QtGui&quot;;&quot;$(QTDIR)\include\QtCore&quot;;&quot;$(QTDIR)\include\Qt&quot;;&quot;$(QTDIR)\include&quot;;./"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="qtmain.lib QtCore4.lib QtGui4.lib QtNetwork4.lib QtOpenGL4.lib QtSql4.lib QtScript4.lib QtSvg4.lib QtXml4.lib QtUiTools.lib Qt3Support4.lib QtTest4.lib OGDF.lib"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories=".\lib;&quot;$(QTDIR)\lib&quot;"
+				GenerateDebugInformation="true"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\src\viewinfinity\CodeMiniMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\CodeView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\CodeViewInteractiveRect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\DomItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\DomModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureColorDialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureEdgeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureMiniMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureTreeItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureTreeModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureTreeView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureViewInteractiveRect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureViewNodeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileMiniMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileMiniMapNodeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileTreeItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileTreeModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileTreeView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileViewInteractiveRect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileViewNodeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\LinearEdgeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\ReadModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\SMVMain.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\SyntaxHighlighter.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\src\viewinfinity\CodeMiniMap.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\CodeView.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\CodeViewInteractiveRect.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\DomItem.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\DomModel.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureColorDialog.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureEdgeGraphic.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureMiniMap.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureTreeItem.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureTreeModel.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureTreeView.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureView.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureViewInteractiveRect.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FeatureViewNodeGraphic.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileMiniMap.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileMiniMapNodeGraphic.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileTreeItem.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileTreeModel.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileTreeView.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileView.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileViewInteractiveRect.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\FileViewNodeGraphic.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\LinearEdgeGraphic.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\ReadModel.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\SMVMain.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\SyntaxHighlighter.h"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Creating Qt MOC for file $(InputName).h"
+						CommandLine="$(QTDIR)\bin\moc.exe “$(InputPath)” -o “$(InputDir)moc_$(InputName).cpp”&#x0D;&#x0A;"
+						Outputs="$(InputDir)moc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+		</Filter>
+		<Filter
+			Name="MOC"
+			>
+			<File
+				RelativePath=".\src\viewinfinity\moc_CodeMiniMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_CodeView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_CodeViewInteractiveRect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_DomItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_DomModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureEdgeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureMiniMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureTreeItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureTreeModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureTreeView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureViewInteractiveRect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FeatureViewNodeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileMiniMap.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileMiniMapNodeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileTreeItem.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileTreeModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileTreeView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileView.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileViewInteractiveRect.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_FileViewNodeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_LinearEdgeGraphic.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_ReadModel.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_SMVMain.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\viewinfinity\moc_SyntaxHighlighter.cpp"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -41,9 +41,11 @@ Note:
 - If the VM has not been executed in your computer before, it might take longer time to download and load th VM.
 - The VM will reboot several time automatically to config environment and settings.
 
-  host name change --> reboot --> Disable UAC --> reboot by plugin -->start installations.
-- Please be patient, wait until message "Setting successful, JRE has been installed."
+  host name change --> reboot --> Disable UAC --> reboot by plugin -->start installations --> copy files to startup --> reboot.
+- Please be patient, wait until message "All set"
 - The JRE is installed in c:\Program Files\Java\jre7
+- The tool viewInfinity is in Desktop\View_Infinity_Binary
+- When all setting finish, ViewInfinity will automatically start.
 
 Reference and sources
 -----
@@ -61,6 +63,7 @@ Reference and sources
 12. [Powershell install Java silently](http://stackoverflow.com/questions/29799158/powershell-install-java-silently)
 13. [VagrantDocs](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 14. [Windows : Disable UAC (User Account Control) with CMD Script & PowerShell](http://juventusitprofessional.blogspot.com/2014/05/windows-disable-uac-user-account.html)
+15. [Powershell function to pin and unpin from Windows Taskbar](https://rcmtech.wordpress.com/2014/03/12/powershell-function-to-pin-and-unpin-from-windows-taskbar/)
 
 Author
 -----

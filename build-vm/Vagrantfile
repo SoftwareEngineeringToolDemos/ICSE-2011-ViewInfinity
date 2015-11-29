@@ -5,7 +5,7 @@ require './vagrant-provision-reboot-plugin'
 
 Vagrant.configure(2) do |config|
 
-  # Every Vagrant development environment requires a box.
+  # import window7 box
   config.vm.box = "modernIE/w7-ie11"
   config.vm.hostname = "Viewinfinity"
   config.vm.provider :virtualbox do |vb|
@@ -15,27 +15,28 @@ Vagrant.configure(2) do |config|
   # Disable automatic box update checking. 
   config.vm.box_check_update = false
 
-  # Share an additional folder to the guest VM.
+  # Share folder to the guest VM.
   config.vm.synced_folder "../", "/vagrant_Viewinfinity"
 
-  # Provider-specific configuration so you can fine-tune various
-  # backing providers for Vagrant. 
   
   config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
      vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-     vb.memory = "512"
-  end
-  #
-  # View the documentation for the provider you are using for more
-  # information on available options.
-  
-  #config.vm.provision :shell, path: "installScript/Install-dot-net.ps1"
 
+	 vb.memory = "512"
+
+  #   # Disable USB
+     vb.customize ["modifyvm", :id, "--usb", "off"] 
+     vb.customize ["modifyvm", :id, "--usbehci", "off"] 
+	 
+  end
+
+  # use provision shell to customize vm
   config.vm.provision :shell, path: "installScript/disable-UAC.ps1"
   config.vm.provision :windows_reboot
   config.vm.provision :shell, path: "installScript/Install-JRE.ps1"
+  config.vm.provision :windows_reboot
   
 end
