@@ -13,7 +13,7 @@ Here is the link to the [Original Video] (https://web.archive.org/web/2014120921
 In this repository, for View Infinity you will find:<br>
 :white_check_mark: [Binary Distribution](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_Binary)<br>
 :white_check_mark: [Source Code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_SRC)<br>
-:white_check_mark: [Virtual Machine containing Tool] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_SRC)<br>
+:white_check_mark: [Virtual Machine containing Tool] (https://drive.google.com/open?id=0B13-HP6f_m3vcUdNS1MyeWU5MFU)<br>
 :white_check_mark: [Virtual Machine using Vagrant containing Tool] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm)<br>
 <p>
 This repository was constructed by [Manav Verma](https://github.com/mverma4) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).<br>
