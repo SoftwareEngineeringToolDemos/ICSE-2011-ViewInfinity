@@ -11,10 +11,11 @@ Here is the link to the [Download Page] (https://web.archive.org/web/20141209215
 Here is the link to the [Original Video] (https://web.archive.org/web/20141209215252/http://wwwiti.cs.uni-magdeburg.de/~feigensp/vi/#screenshot)<br>
 <p>
 In this repository, for View Infinity you will find:<br>
-:white_check_mark: [Binary Distribution](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_Binary)<br>
-:white_check_mark: [Source Code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_SRC)<br>
-:white_check_mark: [Virtual Machine containing Tool] (https://drive.google.com/open?id=0B13-HP6f_m3vTHlzRkw2MlhaeWs)<br>
-:white_check_mark: [Virtual Machine using Vagrant containing Tool] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm)<br>
+* :white_check_mark: [Binary Distribution](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_Binary)<br>
+* :white_check_mark: [Source Code](https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/View_Infinity_SRC)<br>
+* :x: Virtual machine containing tool (not available)
+* :white_check_mark: [Virtual Machine using Vagrant containing Tool] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2011-ViewInfinity/tree/master/build-vm)<br>
+
 <p>
 This repository was constructed by [Manav Verma](https://github.com/mverma4) under the supervision of [Dr. Emerson Murphy-Hill](https://github.com/CaptainEmerson).<br>
 Thanks to Dr. Michael Stengel, Dr. Mathias Frisch, Dr. Sven Apel, Dr. Janet Feigenspan, Dr. Christian Kästner and Dr. Raimund Dachselt for their help in establishing this repository.
